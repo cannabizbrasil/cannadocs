@@ -18,14 +18,14 @@ export default function StatsCannaDocs() {
                             Quer você esteja buscando alívio da dor, gerenciamento do estresse, tratamento de condições neurológicas ou qualquer outra necessidade específica, nosso sistema de filtragem avançado permite que você encontre exatamente o que procura.
                         </p>
                     </div>
-                    <dl className="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">
+                    <div className="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">
                         {stats.map((stat) => (
                             <div key={stat.id} className="flex flex-col bg-gray-400/5 hover:bg-cyan-400 p-8">
-                                <dt className="text-md font-semibold leading-6 text-gray-600">{stat.name}</dt>
-                                <dd className="order-first text-5xl font-bold tracking-tight text-gray-900">{stat.value}</dd>
+                                <div className="text-md font-semibold leading-6 text-gray-600">{stat.name}</div>
+                                <div className="order-first text-5xl font-bold tracking-tight text-gray-900">{stat.value}</div>
                             </div>
                         ))}
-                    </dl>
+                    </div>
                 </div>
             </div>
         </div>

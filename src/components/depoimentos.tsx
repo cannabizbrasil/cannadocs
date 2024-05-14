@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import BotaoCannaDocs from './button'
 
 const testimonials = [
     {
@@ -86,6 +87,9 @@ export default function DepoimentosCannaDocs() {
                             </div>
                         ))}
                     </div>
+                </div>
+                <div className="text-center pt-14">
+                    <BotaoCannaDocs />
                 </div>
             </div>
         </div>

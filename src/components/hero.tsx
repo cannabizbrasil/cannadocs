@@ -5,9 +5,9 @@ import BotaoCannaDocs from './button'
 
 export default function HeroCannaDocs() {
     return (
-        <div className="relative isolate overflow-hidden bg-white px-6  pb-72 lg:py-40 lg:px-8">
+        <div className="relative isolate overflow-hidden bg-gray-50 px-6  pb-72 lg:py-40 lg:px-8">
             <Image
-                src="/hero-pc.jpg"
+                src="/hero-pc.png"
                 alt=""
                 width={1920}
                 height={1080}
@@ -25,7 +25,7 @@ export default function HeroCannaDocs() {
 
                 <div className="mt-10 grid max-w-xl grid-cols-1 gap-24 text-base leading-7 text-gray-700 lg:max-w-none lg:grid-cols-2">
                     <div>
-                        <h2 className="text-4xl font-bold tracking-tight sm:text-6xl bg-gradient-to-r from-cyan-500 to-emerald-500 inline-block text-transparent bg-clip-text">
+                        <h2 className="text-4xl font-bold tracking-tight sm:text-6xl bg-gradient-to-r from-azul to-verde inline-block text-transparent bg-clip-text">
                             Descubra o Poder da Cannabis Medicinal através de Estudos e Artigos Científicos.
                         </h2>
                         <p className="mt-8 text-gray-800 text-xl">
