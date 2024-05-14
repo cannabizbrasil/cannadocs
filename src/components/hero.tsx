@@ -14,7 +14,7 @@ export default function HeroCannaDocs() {
                 className="absolute inset-0 -z-10 h-full w-full object-cover hidden md:block"
             />
             <Image
-                src="/hero-mobile.jpg"
+                src="/hero-mobile.png"
                 alt=""
                 width={1080}
                 height={1920}

@@ -68,7 +68,7 @@ export default function CardsCannaDocs() {
 
                 </div>
                 <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-7xl">
-                    <div className="grid max-w-xl grid-cols-2 gap-x-10 gap-y-10 lg:max-w-none lg:grid-cols-2 ">
+                    <div className="grid max-w-xl grid-cols-1 gap-x-10 gap-y-10 lg:max-w-none lg:grid-cols-2 ">
                         {features.map((feature) => (
                             <div key={feature.name} className="relative pl-28 bg-white rounded-2xl p-6 shadow-2xl hover:shadow-verde">
                                 <div className="text-2xl font-bold leading-7 bg-gradient-to-r from-azul to-verde inline-block text-transparent bg-clip-text">
