@@ -59,7 +59,7 @@ export default function CardsCannaDocs() {
                 <div className="mx-auto max-w-4xl lg:text-center">
 
                     <h2 className="text-4xl font-bold tracking-tight sm:text-5xl bg-gradient-to-r from-cyan-500 to-emerald-500 inline-block text-transparent bg-clip-text">
-                        Busque a referencia que precisa, quando precisar
+                        Busque a referência que quiser, quando precisar.
                     </h2>
 
                     <p className="mt-4 text-xl leading-8 text-gray-600">

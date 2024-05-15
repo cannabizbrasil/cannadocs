@@ -29,7 +29,7 @@ export default function HeroCannaDocs() {
                             Descubra o Poder da Cannabis Medicinal através de Estudos e Artigos Científicos.
                         </h2>
                         <p className="mt-8 text-gray-800 text-xl">
-                            Aqui, você encontrará uma vasta coleção de artigos e estudos científicos com informações precisas e baseadas em evidências, todos focados em desvendar os inúmeros benefícios terapêuticos desta planta extraordinária.
+                            Aqui, você encontrará uma vasta coleção de artigos e estudos científicos com informações precisas e baseadas em evidências, todos focados em desvendar os inúmeros benefícios terapêuticos da Cannabis.
                         </p>
                         <div className="pt-10">
                             <BotaoCannaDocs />

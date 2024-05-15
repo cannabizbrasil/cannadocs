@@ -12,10 +12,10 @@ export default function StatsCannaDocs() {
                 <div className="mx-auto max-w-2xl lg:max-w-none">
                     <div className="text-center">
                         <h2 className="text-4xl font-bold tracking-tight sm:text-5xl bg-gradient-to-r from-cyan-500 to-emerald-500 inline-block text-transparent bg-clip-text">
-                            Filtros avançados para pesquisa
+                            + de 6.000 estudos e artigos
                         </h2>
                         <p className="mt-4 text-xl leading-8 text-gray-600">
-                            Quer você esteja buscando alívio da dor, gerenciamento do estresse, tratamento de condições neurológicas ou qualquer outra necessidade específica, nosso sistema de filtragem avançado permite que você encontre exatamente o que procura.
+                            O CannaDocs oferece um sistema de filtragem avançado que permite que você encontre rapidamente as informações mais relevantes para suas necessidades clínicas.
                         </p>
                     </div>
                     <div className="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">

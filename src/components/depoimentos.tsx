@@ -5,8 +5,8 @@ const testimonials = [
     {
         body: 'A plataforma de artigos sobre cannabis medicinal foi um verdadeiro achado para mim! Como médica em busca de informações confiáveis, ter acesso a estudos científicos em um único lugar facilitou muito minha jornada. Recomendo a todos que buscam conhecimento sério e embasado.',
         author: {
-            name: 'Dra. Ana Carolina Silva',
-            handle: '@AnaCarolinaSilva',
+            name: 'Dra. Endy',
+            handle: 'endy',
             imageUrl:
                 '/dra-qualquer.jpeg',
         },
@@ -14,8 +14,8 @@ const testimonials = [
     {
         body: 'Como profissional da saúde, sempre busco embasar minhas práticas em evidências científicas. Encontrar uma plataforma que reúne estudos sobre cannabis medicinal de forma organizada e acessível foi um alívio. Parabéns pelo excelente trabalho!',
         author: {
-            name: 'Dr. Rafael Oliveira',
-            handle: 'RafaelOliveira',
+            name: 'Dr. Jorge',
+            handle: 'dr_jorge',
             imageUrl:
                 '/dra-qualquer.jpeg',
         },
@@ -23,40 +23,13 @@ const testimonials = [
     {
         body: 'Eu estava cansada de passar horas pesquisando na internet por informações sobre cannabis medicinal. Encontrei tudo o que precisava nessa plataforma, desde estudos sobre diferentes condições até análises específicas de terpenos e canabinoides. Simplificou muito minha vida!',
         author: {
-            name: 'Dra. Juliana Santos',
-            handle: 'JulianaSantos',
+            name: 'Dra. Lih',
+            handle: 'lihsantos',
             imageUrl:
                 '/dra-qualquer.jpeg',
         },
     },
-    {
-        body: 'Como pesquisador na área da saúde, preciso estar sempre atualizado com as últimas descobertas. Esta plataforma me proporcionou acesso a uma ampla gama de estudos sobre cannabis medicinal, o que tem sido fundamental para o desenvolvimento dos meus trabalhos. Excelente recurso!',
-        author: {
-            name: 'Dr. Marcos Souza',
-            handle: 'MarcosSouza',
-            imageUrl:
-                '/dra-qualquer.jpeg',
-        },
-    },
-    {
-        body: 'Eu tinha muitas dúvidas sobre o uso medicinal da cannabis e queria aprender mais sobre o assunto. Esta plataforma não apenas respondeu às minhas perguntas, mas também me forneceu um vasto conjunto de evidências científicas. Estou muito satisfeita com a qualidade do conteúdo!',
-        author: {
-            name: 'Isabela Lima',
-            handle: 'IsabelaLima',
-            imageUrl:
-                '/dra-qualquer.jpeg',
-        },
-    },
-    {
-        body: 'A facilidade de encontrar artigos e estudos sobre cannabis medicinal nesta plataforma é impressionante. Como médico, saber que posso confiar nas informações que encontro aqui me dá tranquilidade. Recomendo a todos que buscam conhecimento confiável e atualizado.',
-        author: {
-            name: 'Pedro Rodrigues',
-            handle: 'PedroRodrigues',
-            imageUrl:
-                '/dra-qualquer.jpeg',
-        },
-    },
-    // More testimonials...
+
 ]
 
 export default function DepoimentosCannaDocs() {
