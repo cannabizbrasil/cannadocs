@@ -8,6 +8,7 @@ import CardsCannaDocs from "@/components/cards";
 import FaqCannaDocs from "@/components/faq";
 import CadastroCannaDocs from "@/components/cadastro";
 import FooterCannaDocs from "@/components/footer";
+import PriceCannaDocs from "@/components/price";
 
 
 export default function Home() {
@@ -20,8 +21,9 @@ export default function Home() {
       <CardsCannaDocs />
       <VideoCannaDocs />
       <DepoimentosCannaDocs />
+      <PriceCannaDocs />
       <FaqCannaDocs />
-      <CadastroCannaDocs />
+
       <FooterCannaDocs />
 
 

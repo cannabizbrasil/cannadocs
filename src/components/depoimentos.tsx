@@ -29,6 +29,24 @@ const testimonials = [
                 '/dra-qualquer.jpeg',
         },
     },
+    {
+        body: 'Eu estava cansada de passar horas pesquisando na internet por informações sobre cannabis medicinal. Encontrei tudo o que precisava nessa plataforma, desde estudos sobre diferentes condições até análises específicas de terpenos e canabinoides. Simplificou muito minha vida!',
+        author: {
+            name: 'Dra. Lih',
+            handle: 'lihsantos',
+            imageUrl:
+                '/dra-qualquer.jpeg',
+        },
+    },
+    {
+        body: 'Eu estava cansada de passar horas pesquisando na internet por informações sobre cannabis medicinal. Encontrei tudo o que precisava nessa plataforma, desde estudos sobre diferentes condições até análises específicas de terpenos e canabinoides. Simplificou muito minha vida!',
+        author: {
+            name: 'Dra. Lih',
+            handle: 'lihsantos',
+            imageUrl:
+                '/dra-qualquer.jpeg',
+        },
+    },
 
 ]
 
@@ -37,14 +55,14 @@ export default function DepoimentosCannaDocs() {
         <div className="bg-gray-50 py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl text-center">
-                    <h2 className="text-4xl font-bold tracking-tight sm:text-5xl bg-gradient-to-r from-cyan-500 to-emerald-500 inline-block text-transparent bg-clip-text">
+                    <h2 className="text-4xl font-bold tracking-tight sm:text-5xl bg-gradient-to-r from-cyan-500 to-emerald-500 text-transparent bg-clip-text">
                         O que nossos usuários falam da plataforma
                     </h2>
                 </div>
-                <div className="mx-auto mt-16 flow-root max-w-2xl sm:mt-20 lg:mx-0 lg:max-w-none">
-                    <div className="-mt-8 sm:-mx-4 sm:columns-2 sm:text-[0] lg:columns-3">
+                <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mx-0 lg:max-w-7xl">
+                    <div className="grid grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-8">
                         {testimonials.map((testimonial) => (
-                            <div key={testimonial.author.handle} className="pt-8 sm:inline-block sm:w-full sm:px-4">
+                            <div key={testimonial.author.handle} className="pt-8 ">
                                 <figure className="rounded-2xl bg-gray-100 p-8 text-sm leading-6">
                                     <blockquote className="text-gray-900">
                                         <p>{`“${testimonial.body}”`}</p>
