@@ -6,9 +6,9 @@ const testimonials = [
         body: 'A plataforma de artigos sobre cannabis medicinal foi um verdadeiro achado para mim! Como médica em busca de informações confiáveis, ter acesso a estudos científicos em um único lugar facilitou muito minha jornada. Recomendo a todos que buscam conhecimento sério e embasado.',
         author: {
             name: 'Dra. Endy',
-            handle: 'endy',
+            handle: 'Cirurgiã Dentista',
             imageUrl:
-                '/dra-qualquer.jpeg',
+                '/dra-endy.jpg',
         },
     },
     {
@@ -29,24 +29,7 @@ const testimonials = [
                 '/dra-qualquer.jpeg',
         },
     },
-    {
-        body: 'Eu estava cansada de passar horas pesquisando na internet por informações sobre cannabis medicinal. Encontrei tudo o que precisava nessa plataforma, desde estudos sobre diferentes condições até análises específicas de terpenos e canabinoides. Simplificou muito minha vida!',
-        author: {
-            name: 'Dra. Lih',
-            handle: 'lihsantos',
-            imageUrl:
-                '/dra-qualquer.jpeg',
-        },
-    },
-    {
-        body: 'Eu estava cansada de passar horas pesquisando na internet por informações sobre cannabis medicinal. Encontrei tudo o que precisava nessa plataforma, desde estudos sobre diferentes condições até análises específicas de terpenos e canabinoides. Simplificou muito minha vida!',
-        author: {
-            name: 'Dra. Lih',
-            handle: 'lihsantos',
-            imageUrl:
-                '/dra-qualquer.jpeg',
-        },
-    },
+
 
 ]
 
@@ -71,7 +54,7 @@ export default function DepoimentosCannaDocs() {
                                         <Image className="h-12 w-12 rounded-full bg-gray-50" width={120} height={120} src={testimonial.author.imageUrl} alt="" />
                                         <div>
                                             <div className="font-semibold text-gray-900">{testimonial.author.name}</div>
-                                            <div className="text-gray-600">{`@${testimonial.author.handle}`}</div>
+                                            <div className="text-sm text-gray-600">{testimonial.author.handle}</div>
                                         </div>
                                     </figcaption>
                                 </figure>

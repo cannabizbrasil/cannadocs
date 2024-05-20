@@ -1,6 +1,8 @@
 import { CheckIcon } from '@heroicons/react/20/solid'
 import Link from 'next/link'
 import { ButtonMensal, ButtonAnual } from './buttonsPagamento'
+import Image from 'next/image'
+import { LockClosedIcon, ArrowsUpDownIcon, CreditCardIcon } from '@heroicons/react/24/outline'
 
 const tiers = [
     {
@@ -54,7 +56,7 @@ export default function PriceCannaDocs() {
             </div>
             <div className="mx-auto max-w-2xl text-center lg:max-w-4xl">
                 <h2 className="mt-2 text-4xl font-bold tracking-tight bg-gradient-to-r from-cyan-500 to-emerald-500 text-transparent bg-clip-text sm:text-5xl">
-                    Desbloqueie o Poder da Medicina Canabinóide Baseada em Evidências.
+                    Desbloqueie o Poder da Medicina Canabinoide Baseada em Evidências.
                 </h2>
             </div>
             <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600">
@@ -120,6 +122,58 @@ export default function PriceCannaDocs() {
                     </div>
                 ))}
             </div>
+
+            <div className="">
+                <div className="mx-auto grid grid-cols-2 md:grid-cols-3 max-w-7xl px-6 pt-24 pb-12 gap-y-8">
+                    <div className="flex items-center justify-center">
+                        <div>
+                            <CreditCardIcon className="w-8 text-black" />
+                        </div>
+                        <div className=" pl-4">
+                            <h2 className="font-bold text-xl text-gray-800">Pagamento Facilitado</h2>
+                            <p className="text-sm text-gray-600">PIX, ou até 12x no cartão</p>
+                        </div>
+                    </div>
+                    <div className="flex items-center justify-center">
+                        <div>
+                            <LockClosedIcon className="w-8 text-black" />
+                        </div>
+                        <div className=" pl-2">
+                            <h2 className="font-bold text-xl text-gray-800">Site Seguro</h2>
+                            <p className="text-sm text-gray-600">Compra 100% protegida</p>
+                        </div>
+                    </div>
+                    <div className="flex items-center justify-center">
+                        <div>
+                            <ArrowsUpDownIcon className="w-8 text-black" />
+                        </div>
+                        <div className=" pl-2">
+                            <h2 className="font-bold text-xl text-gray-800">Reembolso Garantido</h2>
+                            <p className="text-sm text-gray-600">Até 7 dias para pedir reembolso</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="mx-auto max-w-4xl">
+                    <div className="mx-auto">
+                        <div>
+                            <p className="text-sm text-gray-600 text-center">Formas de Pagamento</p>
+                        </div>
+                        <div className="flex gap-x-8 justify-center">
+                            <Image src="/cartoes/pix.svg" className="w-16 h-auto" width={16} height={16} alt="" />
+                            <Image src="/cartoes/visa.svg" className="w-12 h-auto" width={16} height={16} alt="" />
+                            <Image src="/cartoes/mastercard.svg" className="w-10 h-auto" width={16} height={16} alt="" />
+                            <Image src="/cartoes/american-express.svg" className="w-8 h-auto" width={16} height={16} alt="" />
+                            <Image src="/cartoes/diners.svg" className="w-8 h-auto" width={16} height={16} alt="" />
+                            <Image src="/cartoes/hipercard.svg" className="w-12 h-auto" width={16} height={16} alt="" />
+                            <Image src="/cartoes/elo.svg" className="h-16 w-16" width={16} height={16} alt="" />
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
         </div>
     )
 }

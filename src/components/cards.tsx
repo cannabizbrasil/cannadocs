@@ -1,4 +1,4 @@
-import { ArrowPathIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon } from '@heroicons/react/24/outline'
+import { ArrowPathIcon, ArrowsPointingInIcon, BeakerIcon, CloudArrowUpIcon, DocumentMagnifyingGlassIcon, FingerPrintIcon, FunnelIcon, InformationCircleIcon, LockClosedIcon, MagnifyingGlassCircleIcon, MagnifyingGlassIcon, QueueListIcon } from '@heroicons/react/24/outline'
 import BotaoCannaDocs from './button'
 
 const features = [
@@ -6,49 +6,49 @@ const features = [
         name: 'Busca por Condições Médicas:',
         description:
             'Encontre informações científicas específicas sobre condições médicas, apresentadas de forma clara e com dados-chave agregados para facilitar o uso.',
-        icon: CloudArrowUpIcon,
+        icon: DocumentMagnifyingGlassIcon,
     },
     {
         name: 'Busca por Sistemas Orgânicos',
         description:
             'Explore estudos científicos sobre cannabis e o sistema endocanabinoide em nível de sistema, destacando tendências e fornecendo insights especializados.',
-        icon: LockClosedIcon,
+        icon: MagnifyingGlassCircleIcon,
     },
     {
         name: 'Busca por Canabinoides',
         description:
             'Realize buscas direcionadas para uma variedade de canabinoides, esclarecendo o panorama científico e as tendências clínicas para CBD, THC e outros.',
-        icon: ArrowPathIcon,
+        icon: MagnifyingGlassIcon,
     },
     {
         name: 'Busca por Terpenos',
         description:
             'Tenha acesso à ciência completa dos terpenos com facilidade, sem distrações desnecessárias.',
-        icon: FingerPrintIcon,
+        icon: ArrowsPointingInIcon,
     },
     {
         name: 'Orientação Quimiotípica',
         description:
             'Encontre orientações rápidas sobre tendências quimiotípicas para ajudar na tomada de decisões médicas e escolha de produtos de cannabis.',
-        icon: FingerPrintIcon,
+        icon: BeakerIcon,
     },
     {
         name: 'Capacidade de Filtragem Completa',
         description:
             'Encontre exatamente a pesquisa que você precisa, com filtros abrangentes em uma ampla gama de dados.',
-        icon: FingerPrintIcon,
+        icon: FunnelIcon,
     },
     {
         name: 'Informações do Painel',
         description:
             'Obtenha insights cruciais e tendências importantes com cada busca realizada, incluindo análises detalhadas de estudos e classificações de Força da Ciência.',
-        icon: FingerPrintIcon,
+        icon: InformationCircleIcon,
     },
     {
         name: 'Resumo de Dosagem Clínica',
         description:
             'Analise detalhes de dosagem por condição médica, provenientes de estudos clínicos, para apoiar decisões críticas no tratamento de pacientes.',
-        icon: FingerPrintIcon,
+        icon: QueueListIcon,
     },
 ]
 
