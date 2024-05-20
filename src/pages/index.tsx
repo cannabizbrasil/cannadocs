@@ -6,7 +6,6 @@ import DepoimentosCannaDocs from "@/components/depoimentos";
 import VideoCannaDocs from "@/components/video";
 import CardsCannaDocs from "@/components/cards";
 import FaqCannaDocs from "@/components/faq";
-import CadastroCannaDocs from "@/components/cadastro";
 import FooterCannaDocs from "@/components/footer";
 import PriceCannaDocs from "@/components/price";
 
@@ -23,10 +22,7 @@ export default function Home() {
       <DepoimentosCannaDocs />
       <PriceCannaDocs />
       <FaqCannaDocs />
-
       <FooterCannaDocs />
-
-
     </main>
   );
 }
