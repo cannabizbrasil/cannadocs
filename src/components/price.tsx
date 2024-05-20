@@ -1,12 +1,13 @@
 import { CheckIcon } from '@heroicons/react/20/solid'
 import Link from 'next/link'
+import { ButtonMensal, ButtonAnual } from './buttonsPagamento'
 
 const tiers = [
     {
         name: 'Mensal',
         id: 'tier-hobby',
-        href: '#',
-        priceMonthly: 'R$99',
+        button: <ButtonMensal />,
+        priceMonthly: 'R$79',
         recorrency: '/mês',
         description: "Acesso completo a plataforma durante 1 mês",
         features: [
@@ -19,8 +20,8 @@ const tiers = [
     {
         name: 'Anual',
         id: 'tier-enterprise',
-        href: '#',
-        priceMonthly: 'R$420',
+        button: <ButtonAnual />,
+        priceMonthly: 'R$699',
         recorrency: '/ano',
         description: 'Acesso completo a plataforma durante 1 ano',
         features: [
@@ -41,7 +42,7 @@ function classNames(...classes: string[]) {
 
 export default function PriceCannaDocs() {
     return (
-        <div className="relative isolate bg-gray-50 px-6 py-24 sm:py-32 lg:px-8">
+        <div className="relative isolate bg-gray-50 px-6 py-24 sm:py-32 lg:px-8" id='cadastro'>
             <div className="absolute inset-x-0 -top-3 -z-10 transform-gpu overflow-hidden px-36 blur-3xl" aria-hidden="true">
                 <div
                     className="mx-auto aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-verde to-azul opacity-30"
@@ -59,7 +60,7 @@ export default function PriceCannaDocs() {
             <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600">
                 Escolha o plano que melhor se adequa a sua necessidade e bons estudos.
             </p>
-            <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2">
+            <div className="mx-auto mt-16 grid max-w-lg grid-cols-2 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2">
                 {tiers.map((tier, tierIdx) => (
                     <div
                         key={tier.id}
@@ -113,13 +114,9 @@ export default function PriceCannaDocs() {
                                 </li>
                             ))}
                         </ul>
-                        <Link
-                            href={tier.href}
-                            aria-describedby={tier.id}
-                            className='mt-8 transition inline-block rounded-full border border-transparent bg-gradient-to-tr from-blue-400 to-green-500 from-50% px-8 py-4 text-xl font-medium text-gray-100 hover:text-gray-700 hover:bg-gradient-to-tl shadow-xl hover:shadow-md  duration-300 ease-in '
-                        >
-                            Assinar
-                        </Link>
+                        <div>
+                            {tier.button}
+                        </div>
                     </div>
                 ))}
             </div>

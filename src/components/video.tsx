@@ -2,6 +2,7 @@
 
 
 import Video from 'next-video';
+import VideoIntro from '/videos/cannadocs_intro.mp4'
 
 
 
@@ -12,7 +13,7 @@ export default function VideoCannaDocs() {
             <div className="relative isolate ">
                 <div className="mx-auto max-w-9xl px-8 lg:px-0  py-24 ">
                     <div className="overflow-hidden bg-black rounded-3xl shadow-2xl">
-                        <Video src='https://stream.mux.com/kA7tUEeh7RFr3bFn026b4GLNk00UPWSWtQ8G00VsYdNqyo.m3u8' />
+                        <Video src={VideoIntro} />
                     </div>
                 </div>
             </div>

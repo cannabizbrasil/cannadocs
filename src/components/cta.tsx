@@ -3,8 +3,8 @@ import BotaoCannaDocs from "./button";
 
 export default function CtaCannaDocs() {
     return (
-        <div className="bg-gray-50">
-            <div className="mx-auto max-w-9xl py-24 sm:py-32 ">
+        <div className="bg-gray-50 ">
+            <div className="mx-auto max-w-9xl  sm:py-32 overflow-hidden lg:overflow-visible ">
                 <div className="relative isolate  bg-gradient-radial to-azul from-verde to-90% px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
 
                     <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
@@ -17,9 +17,9 @@ export default function CtaCannaDocs() {
 
                         </div>
                     </div>
-                    <div className=" mt-16   overflow-visible">
+                    <div className=" mt-16 ">
                         <Image
-                            className="absolute w-[57rem] max-w-none"
+                            className=" lg:absolute w-[34rem] lg:w-[57rem] max-w-none"
                             src="/mockup-tela.png"
                             alt="App screenshot"
                             width={1824}
