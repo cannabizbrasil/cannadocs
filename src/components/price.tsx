@@ -11,6 +11,7 @@ const tiers = [
         button: <ButtonMensal />,
         priceMonthly: 'R$79',
         recorrency: '/mês',
+        total: '',
         description: "Acesso completo a plataforma durante 1 mês",
         features: [
             '+ 6000 artigos e pesquisas',
@@ -23,8 +24,9 @@ const tiers = [
         name: 'Anual',
         id: 'tier-enterprise',
         button: <ButtonAnual />,
-        priceMonthly: 'R$699',
-        recorrency: '/ano',
+        priceMonthly: 'R$58,25',
+        recorrency: '/mês',
+        total: 'Valor total R$699,00 por ano',
         description: 'Acesso completo a plataforma durante 1 ano',
         features: [
             '+ 6000 artigos e pesquisas',
@@ -62,7 +64,7 @@ export default function PriceCannaDocs() {
             <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600">
                 Escolha o plano que melhor se adequa a sua necessidade e bons estudos.
             </p>
-            <div className="mx-auto mt-16 grid max-w-lg grid-cols-2 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2">
+            <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2">
                 {tiers.map((tier, tierIdx) => (
                     <div
                         key={tier.id}
@@ -95,7 +97,9 @@ export default function PriceCannaDocs() {
                                 {tier.priceMonthly}
                             </span>
                             <span className={classNames(tier.featured ? 'text-gray-900' : 'text-gray-600', 'text-base')}>{tier.recorrency}</span>
+
                         </p>
+                        <p className="text-gray-800 text-sm">{tier.total}</p>
                         <p className={classNames(tier.featured ? 'text-gray-900' : 'text-gray-600', 'mt-6 text-base leading-7')}>
                             {tier.description}
                         </p>

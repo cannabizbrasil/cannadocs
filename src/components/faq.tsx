@@ -78,7 +78,7 @@ const faqs = [
 
 export default function FaqCannaDocs() {
     return (
-        <div className="bg-gray-50 py-24 sm:py-32 px-8  lg:py-40">
+        <div className="bg-gray-50 py-24 sm:py-32 px-8  lg:py-40" id="faq">
             <div className="mx-auto max-w-9xl bg-gradient-to-tr from-azul to-verde rounded-2xl lg:px-8">
                 <div className="py-24  ">
                     <div className="mx-auto max-w-7xl divide-y divide-white/10 px-8">

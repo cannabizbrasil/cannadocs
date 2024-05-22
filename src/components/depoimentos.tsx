@@ -14,19 +14,19 @@ const testimonials = [
     {
         body: 'Como profissional da saúde, sempre busco embasar minhas práticas em evidências científicas. Encontrar uma plataforma que reúne estudos sobre cannabis medicinal de forma organizada e acessível foi um alívio. Parabéns pelo excelente trabalho!',
         author: {
-            name: 'Dr. Jorge',
-            handle: 'dr_jorge',
+            name: 'Dr. Rodrigo',
+            handle: 'Médico',
             imageUrl:
-                '/dra-qualquer.jpeg',
+                '/dr-rodrigo-eboli-da-costa.jpg',
         },
     },
     {
         body: 'Eu estava cansada de passar horas pesquisando na internet por informações sobre cannabis medicinal. Encontrei tudo o que precisava nessa plataforma, desde estudos sobre diferentes condições até análises específicas de terpenos e canabinoides. Simplificou muito minha vida!',
         author: {
-            name: 'Dra. Lih',
-            handle: 'lihsantos',
+            name: 'Dra. Lorena Feliz',
+            handle: 'Médica',
             imageUrl:
-                '/dra-qualquer.jpeg',
+                '/dra-lorena-feliz.jpg',
         },
     },
 

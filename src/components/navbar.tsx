@@ -6,10 +6,10 @@ import { Bars3Icon, XMarkIcon, } from '@heroicons/react/24/outline'
 
 
 const navigations = [
-    { name: 'Menu', href: '#' },
-    { name: 'Menu', href: '#' },
-    { name: 'Menu', href: '#' },
-    { name: 'Menu', href: '#' },
+    { name: 'Recursos', href: '#recursos' },
+    { name: 'Preço', href: '#cadastro' },
+    { name: 'FAQ', href: '#faq' },
+
 
 ]
 
@@ -38,7 +38,7 @@ export default function NavBar() {
                 <div className="flex">
                 </div>
                 <div className="flex flex-1  justify-end">
-                    <a href="#" className="text-sm font-semibold pt-1 leading-6 text-white">
+                    <a href="https://airtable.com/appPYfdqtuYZsLmSS/pagdEbd3mtmXS8xfd" className="text-sm font-semibold pt-1 leading-6 text-white">
                         Log in  →
                     </a>
                     <button
@@ -71,8 +71,9 @@ export default function NavBar() {
                                 {navigations.map((navigation) => (
                                     <div key={navigation.name}>
                                         <a
-                                            href="#"
+                                            href={navigation.href}
                                             className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800"
+                                            onClick={() => setMobileMenuOpen(false)}
                                         >
                                             {navigation.name}
                                         </a>
@@ -83,7 +84,7 @@ export default function NavBar() {
                             </div>
                             <div className="py-6 ">
                                 <a
-                                    href="#"
+                                    href="https://airtable.com/appPYfdqtuYZsLmSS/pagdEbd3mtmXS8xfd"
                                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white hover:bg-gray-800"
                                 >
                                     Log in  →

@@ -12,7 +12,7 @@ export default function StatsCannaDocs() {
                 <div className="mx-auto max-w-2xl lg:max-w-none">
                     <div className="text-center">
                         <h2 className="text-4xl font-bold tracking-tight sm:text-5xl bg-gradient-to-r from-cyan-500 to-emerald-500 inline-block text-transparent bg-clip-text">
-                            + de 6.000 estudos e artigos
+                            + de 7.000 estudos e artigos
                         </h2>
                         <p className="mt-4 text-xl leading-8 text-gray-600">
                             O CannaDocs oferece um sistema de filtragem avançado que permite que você encontre rapidamente as informações mais relevantes para suas necessidades clínicas.
