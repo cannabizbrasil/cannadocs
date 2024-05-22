@@ -1,7 +1,7 @@
 import { Fragment } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import CadastroAnual from './cadastroAnual'
-import CadastroMensal from './cadastroMensal'
+
 
 
 interface Props {

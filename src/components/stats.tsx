@@ -1,6 +1,6 @@
 const stats = [
     { id: 1, name: 'Condições Médicas', value: '276' },
-    { id: 2, name: 'Canabinóides', value: '62' },
+    { id: 2, name: 'Canabinoides', value: '62' },
     { id: 3, name: 'Sistemas do Organismo', value: '12' },
     { id: 4, name: 'Terpenos', value: '17' },
 ]

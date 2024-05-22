@@ -1,7 +1,5 @@
 import Link from 'next/link'
-import { Fragment, useState } from 'react'
-import ModalMensal from './modalMensal'
-import ModalAnual from './modalAnual'
+
 
 export default function BotaoCannaDocs() {
     return (
