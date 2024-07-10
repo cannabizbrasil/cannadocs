@@ -21,7 +21,7 @@ export default function NavBar() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
-        <header className="bg-gradient-to-tr from-verde to-azul ">
+        <header className="bg-gradient-to-tr from-verde to-azul px-6 ">
             <nav className="mx-auto flex max-w-7xl items-center justify-between py-4 " aria-label="Global">
                 <div className="flex lg:flex-1">
                     <a href="#" className="-m-1.5">
