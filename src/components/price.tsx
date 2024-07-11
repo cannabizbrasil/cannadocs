@@ -14,7 +14,7 @@ const tiers = [
         total: '',
         description: "Acesso completo a plataforma durante 1 mês",
         features: [
-            '+ 6000 artigos e pesquisas',
+            '+ 7000 artigos e pesquisas',
             'Filtros avançados',
             '7 dias grátis'
         ],
@@ -29,7 +29,7 @@ const tiers = [
         total: 'Valor total R$948,00 por ano',
         description: 'Acesso completo a plataforma durante 1 ano',
         features: [
-            '+ 6000 artigos e pesquisas',
+            '+ 7000 artigos e pesquisas',
             'Filtros avançados',
             '7 dias grátis',
             'Suporte prioritário'
