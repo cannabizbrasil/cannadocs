@@ -24,9 +24,9 @@ const tiers = [
         name: 'Anual',
         id: 'tier-enterprise',
         button: <ButtonAnual />,
-        priceMonthly: 'R$79',
+        priceMonthly: 'R$58,25',
         recorrency: '/mês',
-        total: 'Valor total R$948,00 por ano',
+        total: 'Valor total R$699,00 por ano',
         description: 'Acesso completo a plataforma durante 1 ano',
         features: [
             '+ 7000 artigos e pesquisas',
